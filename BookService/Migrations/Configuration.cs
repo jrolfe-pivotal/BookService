@@ -1,6 +1,5 @@
 namespace BookService.Migrations
 {
-    using BookService.CloudServices;
     using BookService.Models;
     using System;
     using System.Data.Entity;

@@ -1,5 +1,4 @@
-﻿using BookService.CloudServices;
-using BookService.Migrations;
+﻿using BookService.Migrations;
 using System.Data.Entity;
 
 namespace BookService.Models
@@ -13,7 +12,7 @@ namespace BookService.Models
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
     
-        public BookServiceContext() : base(CFConnectionStringBinder.Bind("BookServiceContext"))
+        public BookServiceContext() 
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<BookServiceContext, Configuration>());
         }

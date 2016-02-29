@@ -5,7 +5,7 @@ using System.Web.Http;
 using System.Web.Http.ExceptionHandling;
 using BookService.App_Start;
 using System.Data.Entity;
-using MySql.Data.Entity;
+//using MySql.Data.Entity;
 using System.Data.Entity.Infrastructure;
 
 namespace BookService
